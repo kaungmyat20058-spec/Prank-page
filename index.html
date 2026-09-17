@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free UC 😎</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 60px 20px;
+      background: #f2f4f7;
+    }
+    .box {
+      max-width: 360px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 5px 20px #0002;
+    }
+    button {
+      padding: 12px 25px;
+      border: 0;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>🎁 Free UC Event</h2>
+    <p>မင်း Free UC ရပြီလို့ထင်နေလား? 😂</p>
+    <button onclick="prank()">Claim UC</button>
+  </div>
+
+  <script>
+    function prank() {
+      document.querySelector(".box").innerHTML = `
+        <h1>😂 PRANK!</h1>
+        <p>ဘာ Password မှ မယူပါဘူး။</p>
+        <p>သူငယ်ချင်းကို စတာပါ bro 😎</p>
+      `;
+    }
+  </script>
+</body>
+</html>
